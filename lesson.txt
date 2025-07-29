@@ -1,0 +1,38 @@
+                Garbage collection bu nima 
+garbage collection bu Xotira tozalab turuvchi ma'lum bir vaqt o'tkanidan keyin javascript o'zgaruvchi yoki kodlar ishlatilmasa o'zi ishlatmaydi ya'ni javascript o'z xotirasidan o'chiradi 
+bu avtomatik ravishda qo'llaniladi 
+
+Execution context : 
+        Execution context Javascriptda kodni kodni o'qish tartibi
+
+Browserda V8 Engine bu bizani dasturlash tilimizni kamputer tiliga o'zgartirib beradi 
+
+Execution kontexda global scope va function scope ga ega bo'lishi mumkin
+Javascriptda Birinchi kod ishga tushishi bu Global scope bo'llaniladi
+
+Execution ikki xil bo'ladi 
+    global Execution kontext :
+            Creatin phase :
+                    Javascript creation phase bosqichida kodnni compile qiladi ya'ni bir marta o'qib chiqadi
+                    o'zgaruvchi va funksiyalarda decloration'slarini saqlaydi
+                    hoisting :
+                            o'zgaruvchilarni tepadaga ko'taradida va undefined qiymat beradi
+                            Hoisting bu javascript kodni o'qishdan oldin o'zgaruvchilarni va function declorationlarni yuqoriga ko'tarib qo'yadi va shu narsa hoisting deyiladi
+                    Scope chain : 
+                    This kalit so'ziga qiymat beriladi
+            Execution phase
+            
+    function Execution kontext:
+            Creatin phase 
+            Execution phase
+            Har bitta funksiya yaratilganda bitta function scope chiqadi
+
+Javascrtipt compilerni yoki Interpretermi :
+                Javascsript just in time compiler 
+                compiler kodni jamlab bittada o'qiydi
+            Interpreter esa kodni qatorma qator bitta bitta o'qiydi
+            Birinchi javascript kodni compiler qiladi keyin hoisting qiladi va gloab o'zgaruvchi this kalit so'zni beradi 
+            keyin interpreter qilib bitta bitta o'qib chiqadi
+
+
+
