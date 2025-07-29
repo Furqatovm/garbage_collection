@@ -13,6 +13,9 @@ html{
     display: none;
 }
 
+.name{
+    box-shadow: 0 0 10px #0066FF;
+}
 @media (max-width: 768px){
     #desktop{
         display: none;
