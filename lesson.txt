@@ -19,11 +19,17 @@ Execution ikki xil bo'ladi
                             o'zgaruvchilarni tepadaga ko'taradida va undefined qiymat beradi
                             Hoisting bu javascript kodni o'qishdan oldin o'zgaruvchilarni va function declorationlarni yuqoriga ko'tarib qo'yadi va shu narsa hoisting deyiladi
                     Scope chain : 
+                                global scope: 
+                                    javascript file yaratilgandan gloabl scope yaratiladi
+                                function scope: nechta function yaratsam manabu {} scope 
+                                local, block-scope, for, do-while, while:
+                                                    bular block scope deyiladi
                     This kalit so'ziga qiymat beriladi
             Execution phase
             
     function Execution kontext:
-            Creatin phase 
+            Creatin phase :
+                o'zgaruvchilar hoisting bo'lganda funksiyani tepaga ko'tarib chiqaradi
             Execution phase
             Har bitta funksiya yaratilganda bitta function scope chiqadi
 
@@ -36,3 +42,9 @@ Javascrtipt compilerni yoki Interpretermi :
 
 
 
+
+
+Var hech qachon Block scopeda turmaydi U har doim golable scope bo'ladi
+Let va const Block scopeda bo'ysinadi 
+
+o'zgaruvchi scopedan pastga bo'lishi mumkin emas
