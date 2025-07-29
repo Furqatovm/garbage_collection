@@ -30,7 +30,8 @@ Execution ikki xil bo'ladi
     function Execution kontext:
             Creatin phase :
                 o'zgaruvchilar hoisting bo'lganda funksiyani tepaga ko'tarib chiqaradi
-            Execution phase
+            Execution phase :
+            Execution phase da o'zgaruvchilarni qiymatini beradi 
             Har bitta funksiya yaratilganda bitta function scope chiqadi
 
 Javascrtipt compilerni yoki Interpretermi :
@@ -48,3 +49,15 @@ Var hech qachon Block scopeda turmaydi U har doim golable scope bo'ladi
 Let va const Block scopeda bo'ysinadi 
 
 o'zgaruvchi scopedan pastga bo'lishi mumkin emas
+
+
+
+switch case while do while larda Execution context yo'q 
+This kalit so'zi default holatda Global Execution da js filega teng bo'ladi
+
+
+
+Lexical environment : 
+        o'zini maxsus xotirasiga ega
+        outerda functionda yuqoridagi o'zgaruvchilarga ruxsat olishiga aytiladi 
+        bu yerda function qaysi o'zgaruvchilarga ruxsat beradigan environment 
