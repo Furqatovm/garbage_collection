@@ -61,3 +61,6 @@ Lexical environment :
         o'zini maxsus xotirasiga ega
         outerda functionda yuqoridagi o'zgaruvchilarga ruxsat olishiga aytiladi 
         bu yerda function qaysi o'zgaruvchilarga ruxsat beradigan environment 
+
+
+Closure : ichki funksiya otasining o'zgaruvchilarini dosuf olishi clousre deyiladi
