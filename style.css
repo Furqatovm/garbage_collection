@@ -1,0 +1,25 @@
+html{
+    font-family: "Old Standard TT", serif;
+}
+
+.con{
+    max-width: 1250px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0.937rem 1.25rem;
+}
+
+#mobile{
+    display: none;
+}
+
+@media (max-width: 768px){
+    #desktop{
+        display: none;
+    } 
+    #mobile{
+        display: flex;
+    }
+
+
+}
